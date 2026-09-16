@@ -6,6 +6,8 @@ public class main{
         System.err.println("=== Bem-vindo ao PetShop ===");
         System.out.print("Digite o nome do dono:");
         String dono = sc.nextLine();
+
+        
         System.out.println("Digite a espécie do animal:");
         String especie = sc.nextLine();
         
