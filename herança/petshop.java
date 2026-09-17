@@ -13,6 +13,22 @@ public class petshop {
         this.nomeDono = nomeDono;
     }
 
+    public String getNomeAnimal() {
+        return nomeAnimal;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public String getNomeDono() {
+        return nomeDono;
+    }
+
     public void nome_animal() {
         System.out.println("o nome do animal é: " + this.nomeAnimal);
     }
